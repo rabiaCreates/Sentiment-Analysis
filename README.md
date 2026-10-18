@@ -78,6 +78,3 @@ The gap between these results is a warning that the model may struggle with real
 
 The app calls the model output a **positive sentiment score**, not confidence, because sigmoid outputs are not automatically calibrated probabilities of correctness.
 
-## Suggested LinkedIn description
-
-Built an end-to-end sentiment analysis project using a Keras CNN and Streamlit. The workflow covers text preprocessing, training-only text vectorization, model training with early stopping, classification metrics, and an interactive demo. I also tested the model on a small hand-written challenge set and documented its weaknesses around negation and mixed sentiment. Next step: validate on a larger independent review dataset.
